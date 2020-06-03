@@ -1,0 +1,10 @@
+<!--pages/pics/pics.wxml-->
+
+<view class="picView">
+<block wx:for="{{theArray}}" wx:key="_id" >
+<navigator url="../../pages/story/story?url={{item.fileID}}&story={{item.story}}">
+<image src="{{item.fileID}}" mode="widthFix"></image></navigator>
+</block>
+
+<navigator url="../../pages/addnew/addnew" class="addnew" hover-class="addnewHover">传新照片</navigator>
+</view>

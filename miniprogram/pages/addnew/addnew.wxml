@@ -1,0 +1,15 @@
+<!--pages/addnew/addnew.wxml-->
+<view class="addnewView">
+<image 
+class="addPic" 
+src="{{fileID}}" 
+mode="widthFix" 
+bindtap="getImage"
+></image>
+<textarea class="text" value="{{text}}" bindinput="textInput" placeholder="这照片又有什么故事呢....."></textarea>
+<button class="uploadBtn" hover-class="uploadBtnHover" style="width:200rpx"
+ bindtap="goUpload" 
+ >上传</button>
+ <canvas class="theCanvas" canvas-id="myCanvas" style="width:2000px;height:2000px"></canvas>
+
+</view>

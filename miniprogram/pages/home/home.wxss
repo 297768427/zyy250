@@ -1,0 +1,30 @@
+/* pages/home/home.wxss */
+.homeView{
+  margin-top: 390rpx;
+  text-align: center;
+}
+
+.homeTitle{
+  font-size: 60rpx;
+}
+
+.homeInput{
+  border: 1px solid palevioletred;
+  border-radius: 50px;
+  height: 90rpx;
+  width: 580rpx;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.homeButton{
+  border: 1px solid rgb(127, 191, 234);
+  border-radius: 50px;
+  font-weight: 400;
+}
+
+.homeButtonClick{
+  background-color: rgb(127, 191, 234);
+}

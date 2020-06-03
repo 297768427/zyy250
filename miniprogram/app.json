@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/story/story",
+    "pages/pics/pics",
+    "pages/chat/chat",
+    "pages/addnew/addnew"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "250生日快乐哦",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/pics/pics",
+      "text": "照片",
+      "iconPath": "assets/tabbar/pic_icon.jpg",
+      "selectedIconPath": "assets/tabbar/pic_icon.jpg"
+    },
+    {
+      "pagePath": "pages/chat/chat",
+      "text": "留言",
+      "iconPath": "assets/tabbar/chat_icon.jpg",
+      "selectedIconPath": "assets/tabbar/chat_icon.jpg"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

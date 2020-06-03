@@ -1,0 +1,25 @@
+/* pages/pics/pics.wxss */
+.picView{
+  width: 100%;
+  text-align: center;
+}
+
+
+
+image{
+  margin-bottom: 40px;
+}
+
+.addnew{
+  border: 1px solid rgb(30, 179, 238);
+  width: 120px;
+  font-size: 20px;
+  float: right;
+  margin-right: 55px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+}
+
+.addnewHover{
+  background-color: rgb(30, 179, 238);
+}

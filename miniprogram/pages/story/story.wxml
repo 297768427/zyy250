@@ -1,0 +1,7 @@
+<!--pages/story/story.wxml-->
+<view class="storyView">
+<image src="{{imageUrl}}" mode="aspectFill"/>
+<view class="textView">
+<text>{{story}}</text>
+</view>
+</view>

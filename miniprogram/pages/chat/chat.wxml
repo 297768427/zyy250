@@ -1,0 +1,11 @@
+<!--pages/chat/chat.wxml-->
+<view class="chatView">
+<block wx:for="{{message}}" wx:key="_id">
+<view class="textView">
+<text>{{item.content}}</text>
+</view>
+<view class="hrView"></view>
+</block>
+<button class="uploadButton" hover-class="uploadButtonHover" style="width:110px;visibility:{{btnVisibility}}" bindtap="upload">上传</button>
+<textarea class="input" bindinput="chatInput" style="height:{{inputHeight}}" bindfocus="getLarge" bindblur="getSmall" value="{{input}}"></textarea>
+</view>

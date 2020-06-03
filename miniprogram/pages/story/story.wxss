@@ -1,0 +1,26 @@
+/* pages/story/story.wxss */
+.storyView{
+  width: 750rpx;
+  height: 100vh;
+  position: relative;
+}
+
+image{
+  width: 750rpx;
+  height: 100vh;
+  filter: brightness(40%);
+}
+
+.textView{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* background-color: brown; */
+}
+
+text{
+  color: white;
+  font-size: 26px;
+  font-weight: 380;
+}

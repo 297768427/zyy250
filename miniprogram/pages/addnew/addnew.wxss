@@ -1,0 +1,42 @@
+/* pages/addnew/addnew.wxss */
+.addnewView{
+  position: relative;
+  width: 750rpx;
+  text-align: center;
+}
+
+.addPic{
+  height: 700rpx;
+  width: 440rpx;
+  margin-top: 200rpx;
+}
+
+.text{
+  display: inline-block;
+  height: 220rpx;
+  width: 520rpx;
+  border: 1px solid rgb(127, 191, 234);
+  margin-top: 70rpx;
+  border-radius: 40rpx;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.uploadBtn{
+  border:1px solid rgb(127, 191, 234);
+  border-radius: 30px;
+  margin-top: 35px;
+}
+
+.uploadBtnHover{
+  background-color: rgb(127, 191, 234);
+}
+
+.theCanvas{
+  position: absolute;
+  top:-3000px;
+  left: -3000px;
+}

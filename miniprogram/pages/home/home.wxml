@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<view class="homeView">
+<text class="homeTitle">输入咱俩的名字</text>
+<input class="homeInput" type="password" bindinput="passwordInput"></input>
+<button class="homeButton" hover-class="homeButtonClick"  bindtap="homeGo">确认登入</button>
+</view>

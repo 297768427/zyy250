@@ -1,0 +1,48 @@
+/* pages/chat/chat.wxss */
+.chatView{
+  width: 750rpx;
+  text-align: center;
+  position: relative;
+}
+
+.textView{
+  display: inline-block;
+  width: 86vw;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.hrView{
+  display: inline-block;
+  width: 92vw;
+  height: 2px;
+  border-bottom: 0.8px solid rgb(201, 197, 197);
+  margin-top: 26px;
+}
+
+.uploadButton{
+  position: fixed;
+  right: 40rpx;
+  bottom: 130px;
+  border:1px solid rgb(127, 191, 234);
+  border-radius: 30px;
+}
+
+.uploadButtonHover{
+  background-color: rgb(127, 191, 234);
+}
+
+.input{
+  border:1px solid rgb(127, 191, 234);
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  width: 650rpx;
+  /* height: 30px; */
+  border-radius: 25px;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  padding-top: 8rpx;
+}
